@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/itunesFragment">
+
+    <fragment
+        android:id="@+id/itunesFragment"
+        android:name="com.example.practicaapi.ItunesFragment"
+        android:label="fragment_itunes"
+        tools:layout="@layout/fragment_itunes" />
+</navigation>
